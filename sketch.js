@@ -13,7 +13,7 @@ car.velocityX = speed;
 function draw() 
 {
   background(255,255,255);  
- if(wall.x-car < (car.width+wall.width)/2)
+ if(wall.x-car.x < (car.width+wall.width)/2)
 
 car.velocity=0;
 var deformation=0.5 * weight * speed* speed/22509; 
